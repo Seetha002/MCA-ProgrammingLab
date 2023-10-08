@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+
 list1=[]
 for i in range(0,5):
     num=int(input("Enter an inetger:"))
