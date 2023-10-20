@@ -28,38 +28,3 @@ for i in list1:
             print("Two list have same value:",i)
 if(count==0):
     print("No same value are there")
-
-
-# In[14]:
-
-
-def gcd1(a,b):
-    if(b==0):
-        return a
-    else:
-        return gcd1(b,a%b)
-num1=int(input("Enter first number:"))
-num2=int(input("Enter second number:"))
-g=gcd1(num1,num2)
-print("gcd of num1 and num2 is:",g)
-
-
-# In[16]:
-
-
-list1=[]
-for i in range(0,5):
-    n=int(input("Enter an integer:"))
-    list1.append(n);
-print(list1)
-for i in list1:
-    if(i%2==0):
-        list1.remove(i)
-print("After removing even numbers",list1)
-
-
-# In[ ]:
-
-
-
-
