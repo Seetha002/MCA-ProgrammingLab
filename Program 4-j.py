@@ -13,4 +13,4 @@ for i in range(0,2):
 print("The first Dictionary:",dict1)
 print("The second Dictionary:",dict2)
 dict1.update(dict2)
-print(dict1)
+print("The merged dictionary:",dict1)
