@@ -9,16 +9,6 @@ extension=filename.split('.')
 print("The extension of given filename is:",extension[-1])
 
 
-# In[13]:
-
-
-string=input("Enter a line of text:")
-count=0
-newstring=string.split(" ")
-for i in newstring:
-    count=count+1
-print("The no. of words in the given text line is:",count)
-
 
 # In[15]:
 
