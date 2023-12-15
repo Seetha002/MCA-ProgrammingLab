@@ -2,10 +2,11 @@
 
 
 import csv
-file=input("Enter file name:")
-csvfile=open(file,'r')
+file1=input("Enter file name:")
+csvfile=open(file1,'r')
 csvrow=csv.reader(csvfile)
-print("Printing rows:")
+col=int(input("Enter the column index:"))
 for i in csvrow:
-    print(i)
+    if col<len(i):
+        print(i[col])
 csvfile.close()
